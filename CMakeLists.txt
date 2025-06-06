@@ -29,6 +29,8 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ArucoMarker.msg"
   "msg/ArucoMarkerConfig.msg"
+  "msg/ObjectDetection.msg"
+  "srv/LivingRoomDetect.srv"
   "srv/PikachuDetect.srv"
   DEPENDENCIES sensor_msgs geometry_msgs
 )

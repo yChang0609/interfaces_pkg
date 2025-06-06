@@ -1,0 +1,5 @@
+# LiviningRoomDetect.srv
+
+sensor_msgs/Image image
+---
+interfaces_pkg/ObjectDetection[] detections
